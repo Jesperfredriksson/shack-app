@@ -1,0 +1,48 @@
+.body {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+}
+
+.site-container {
+  background-color: #eeff2fef;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  -webkit-clip-path: polygon(49% 0, 100% 0, 40% 100%, 0 100%, 0 0);
+  clip-path: polygon(49% 0, 100% 0, 40% 100%, 0 100%, 0 0);
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  margin-right: 350px;
+  margin-top: 130px;
+}
+
+.title {
+  font-size: 55px;
+  text-shadow: -2px 0px 10px;
+}
+
+.content {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-style: italic;
+}
+
+.random-button {
+  height: 30px;
+  appearance: none;
+  background-color: black;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+  line-height: 1;
+  text-decoration: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
