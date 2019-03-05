@@ -1,3 +1,7 @@
+.root {
+  margin: -8px;
+}
+
 .body {
   display: flex;
   font-family: "Poppins", sans-serif;
@@ -27,22 +31,16 @@
 .content {
   font-family: "Open Sans Condensed", sans-serif;
   font-style: italic;
+  font-size: 50px;
 }
 
 .random-button {
   height: 30px;
-  appearance: none;
-  background-color: black;
+  background-color: rgba(48, 48, 48, 0.788);
   border: 0;
-  border-radius: 5px;
   color: #fff;
   cursor: pointer;
-  display: inline-block;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 300;
-  line-height: 1;
   text-decoration: none;
-  user-select: none;
-  vertical-align: middle;
-  white-space: nowrap;
+  max-width: 280px;
+  margin-top: 10px;
 }

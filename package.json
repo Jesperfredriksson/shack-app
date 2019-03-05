@@ -3,11 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "firebase": "^5.8.5",
+    "firebase-tools": "^6.4.0",
+    "firestore": "^1.1.6",
     "node-sass": "^4.11.0",
     "react": "^16.8.3",
     "react-burger-menu": "^2.6.5",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5"
+    "react-scripts": "2.1.5",
+    "rebase": "^0.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
